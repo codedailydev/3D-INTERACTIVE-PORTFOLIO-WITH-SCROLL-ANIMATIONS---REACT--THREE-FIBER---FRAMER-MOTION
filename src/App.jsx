@@ -10,6 +10,7 @@ import { Menu } from "./components/Menu";
 import { ScrollManager } from "./components/ScrollManager";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { framerMotionConfig } from "./config";
+import React from 'react';
 import './index.css';
 function App() {
   const [section, setSection] = useState(0);

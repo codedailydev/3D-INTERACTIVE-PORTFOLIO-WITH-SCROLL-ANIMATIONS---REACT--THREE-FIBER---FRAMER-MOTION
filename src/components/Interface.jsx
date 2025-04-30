@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useAtom } from "jotai";
 import { currentProjectAtom, projects } from "./Projects";
 // import { currentPersonalProjectAtom, personalprojects } from "./PersonalProjects";
+import React from 'react';
 
 const Section = ({ children, mobileTop }) => {
   return (

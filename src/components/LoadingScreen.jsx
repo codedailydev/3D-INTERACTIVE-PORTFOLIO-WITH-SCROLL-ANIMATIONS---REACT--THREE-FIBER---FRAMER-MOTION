@@ -1,5 +1,6 @@
 import { useProgress } from "@react-three/drei";
 import { useEffect } from "react";
+import React from 'react';
 
 export const LoadingScreen = (props) => {
   const { started, setStarted } = props;

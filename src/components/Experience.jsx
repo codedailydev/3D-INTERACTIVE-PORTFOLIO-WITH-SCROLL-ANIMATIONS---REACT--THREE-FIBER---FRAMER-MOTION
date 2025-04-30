@@ -13,7 +13,7 @@ import { Avatar } from "./Avatar";
 import { Background } from "./Background";
 import { Office } from "./Office";
 import { Projects } from "./Projects";
-
+import React from 'react';
 export const Experience = (props) => {
   const { menuOpened } = props;
   const { viewport } = useThree();

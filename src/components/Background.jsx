@@ -2,6 +2,7 @@ import { Sphere, useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
+import React from 'react';
 import * as THREE from "three";
 export const Background = () => {
   const material = useRef();
