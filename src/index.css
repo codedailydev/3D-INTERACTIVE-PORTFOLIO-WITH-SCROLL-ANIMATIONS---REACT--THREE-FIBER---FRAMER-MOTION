@@ -24,3 +24,12 @@ body {
     width:30%
   }
 }
+button.bg-indigo-600 {
+  background-color: #f12323;
+}
+ a.bg-indigo-600 {
+  background-color: #f12323;
+}
+div.bg-indigo-600{
+  background-color: #f12323;
+}
